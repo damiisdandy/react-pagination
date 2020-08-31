@@ -1,0 +1,35 @@
+.app {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.post {
+  background-color: brown;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  background-color: blueviolet;
+  padding: 10px;
+}
+
+.nav {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid black;
+  color: white;
+  cursor: pointer;
+}
+
+.nav.disabled {
+  background-color: pink;
+}
+
+.nav.active {
+  background-color: black;
+}
